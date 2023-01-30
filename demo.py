@@ -40,3 +40,6 @@ my_pet = {
     'age' : 2
     }
 print(my_pet)
+
+
+print('hello')
