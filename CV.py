@@ -1,7 +1,10 @@
-#My Curriculum Vitae
-Names = ['Muinat','Abiola', 'Olagunju']
+
+## Curriculum Vitae
+
+
+Names = 'Muinat Abiola Olagunju'
 Email = 'muinatabiola@gmail.com'
-PhoneNumber = 2347036589961
+PhoneNumber = '+234703743589961'
 Skills = {
         'Dental skills': ['Oral surgery','Oral pathology',' Restorative and Preventive dentistry'],
         'IT skills':['Ms Word','Excel','Powerpoint'],
