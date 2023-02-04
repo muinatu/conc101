@@ -7,25 +7,22 @@
 
 
 
-# Amount of bill is assigned to variable x
-x = 200.00
-# amount of tip is assigned to variable y
-y = 20.00
-# total number of people is assigned to variable z
-z = 8
 
-# Assign Bill to x and Tip to y
-Bill = x
-Tip = y
+Bill = round(float(input('Bill: ')),2)
+
+Tip = float(input('Tip: '))
+
 # Store the total bill to be paid as Total_bill
 Total_bill = Bill + Tip
-# number of people splitting the total_bill
-no_of_people = z
-# amount to be paid by each person
-bill_per_person = Total_bill / no_of_people
-splitted_bill_in_words = '{0} people splitting a bill of {1:.2f} Euros should be {2:.2f} Euros each.' 
 
-print(splitted_bill_in_words.format(no_of_people, Total_bill,bill_per_person))
+# number of people splitting the total_bill
+no_of_people = int(input('number of people splitting the total bill: '))
+
+# amount to be paid by each person
+bill_per_person = round(Total_bill / no_of_people, 2)
+
+
+print(str(no_of_people) + ' people splitting a total bill of ' + str(Total_bill) + ' Euros should be ' + str(bill_per_person) + ' Euros per person')
 
 
 
